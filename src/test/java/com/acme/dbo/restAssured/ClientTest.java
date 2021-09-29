@@ -69,7 +69,7 @@ public class ClientTest {
                 .get("/client/{id}", 999)
                 .then()
                 .statusCode(SC_NOT_FOUND);
-    }*/
+    }
 
     @Test
     @DisplayName("Удаление информации по ид, которого нет")
